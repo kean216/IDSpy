@@ -13,6 +13,7 @@ Usage
 This project requires two terminal windows to run simultaneously, simulating an active server environment and the corresponding security monitor.
 
 Terminal 1: Start the Log Generator
+
 Generates background authentication noise and injects randomized brute-force bursts into a local server_logs.txt file.
 
 Bash
