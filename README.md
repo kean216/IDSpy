@@ -20,6 +20,7 @@ Bash
 python attackgen.py
 
 Terminal 2: Start the IDS Monitor
+
 Continuously tails the log file, parsing signatures and tracking IP failure counts in real time.
 
 Bash
