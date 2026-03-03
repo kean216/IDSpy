@@ -25,6 +25,7 @@ python ids_detector.py
 Sample Output:
 
 
+<img width="2200" height="321" alt="gitids" src="https://github.com/user-attachments/assets/b8db5df9-aa2f-4ccf-9b0d-bdb849101e66" />
 
 
 
