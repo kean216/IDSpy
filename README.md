@@ -1,7 +1,9 @@
-Host-Based Intrusion Detection System (HIDS)
+Host-Based Intrusion Detection System 
+
 A Python-based intrusion detection system utilizing a producer-consumer architecture to simulate and detect SSH brute-force attacks in real-time. Designed to demonstrate core Security Information and Event Management (SIEM) logic, this tool utilizes state-tracking and Regular Expressions (RegEx) to parse unstructured log data and flag malicious actors based on strict failure thresholds.
 
-Installation
+Installation:
+
 Clone the repository to your local machine. This project relies entirely on standard Python libraries, requiring no external dependencies or virtual environments.
 
 git clone (https://github.com/kean216/IDSpy.git)
