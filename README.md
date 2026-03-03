@@ -1,11 +1,11 @@
 Host-Based Intrusion Detection System (HIDS)
-
-A  Python intrusion detection system utilizing a producer-consumer architecture to simulate and detect SSH brute-force attacks in real time. I built this to demonstrate core SIEM logic, utilizing state-tracking and Regular Expressions to parse unstructured log data and flag malicious actors based on strict failure thresholds.
+A Python-based intrusion detection system utilizing a producer-consumer architecture to simulate and detect SSH brute-force attacks in real-time. Designed to demonstrate core Security Information and Event Management (SIEM) logic, this tool utilizes state-tracking and Regular Expressions (RegEx) to parse unstructured log data and flag malicious actors based on strict failure thresholds.
 
 Installation
-Clone the repository to your local machine. This project relies on standard Python libraries.
+Clone the repository to your local machine. This project relies entirely on standard Python libraries, requiring no external dependencies or virtual environments.
 
-cd simple-python-ids
+git clone (https://github.com/kean216/IDSpy.git)
+
 
 Usage
 This project requires two terminal windows to run simultaneously, simulating an active server environment and the corresponding security monitor.
@@ -14,7 +14,7 @@ Terminal 1: Start the Log Generator
 Generates background authentication noise and injects randomized brute-force bursts into a local server_logs.txt file.
 
 Bash
-python log_generator.py
+python attackgen.py
 
 Terminal 2: Start the IDS Monitor
 Continuously tails the log file, parsing signatures and tracking IP failure counts in real time.
@@ -31,6 +31,7 @@ Sample Output:
 
 
 Quirks and Limitations
+
 The current iteration runs in a simulated environment using a local text file; it does not natively bind to live system logs or require root privileges to execute.
 
 Active network mitigation (e.g., automatically banning flagged IPs via firewall rules) is intentionally omitted to keep the tool strictly focused on detection and log parsing logic.
