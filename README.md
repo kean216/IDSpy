@@ -7,7 +7,7 @@ A Python-based intrusion detection system utilizing a producer-consumer architec
 Clone the repository to your local machine. This project relies entirely on standard Python libraries, requiring no external dependencies or virtual environments.
 
 ```bash
-git clone [https://github.com/kean216/IDSpy.git](https://github.com/kean216/IDSpy.git)
+git clone (https://github.com/kean216/IDSpy.git)
 ```
 
 ## Usage
